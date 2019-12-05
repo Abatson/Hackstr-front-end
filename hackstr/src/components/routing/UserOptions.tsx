@@ -1,7 +1,7 @@
 import React from 'react';
 import { Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
 
-export const UserOptions:React.FC<any>=(props:any){
+export const UserOptions:React.FC<any>=(props:any)=>{
     return (
         <div>
         <Dropdown isOpen={props.dropdownOpen} toggle={props.toggle}>
