@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './CouchList.css';
-import MicroCouch from './MicroCouch.tsx';
+import MicroCouch from './MicroCouch';
 
 class CouchList extends Component {
 

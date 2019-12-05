@@ -4,6 +4,7 @@ import './App.css';
 import { BrowserRouter } from 'react-router-dom';
 import { CouchNav } from './components/routing/CouchNav';
 import { Switch, Route } from 'react-router';
+import CouchList from './components/CouchList/CouchList';
 
 const App: React.FC = () => {
   return (
