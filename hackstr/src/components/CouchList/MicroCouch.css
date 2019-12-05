@@ -1,4 +1,9 @@
 .MicroCouch {
     margin: 5vh;
     width: 60vw;
+    border-radius: 30px 30px 30px 30px;
+    -moz-border-radius: 30px 30px 30px 30px;
+    -webkit-border-radius: 30px 30px 30px 30px;
+    border: 0px solid #000000;
+    background-color: white;
 }
