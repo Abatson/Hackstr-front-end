@@ -14,10 +14,9 @@ const App: React.FC = () => {
       <Switch>
         {/* <Route path='/login' component={Login}/>
         <Route path= '/couch/:id' component={Couch}/>
-        <Route path='createCouch' component={CreateCouch}/>
-        <Route component={CouchList}/> */}
+        <Route path='createCouch' component={CreateCouch}/> */}
+        <Route component={CouchList}/>
       </Switch>
-    <CouchList/>
     </div>
     </BrowserRouter>
   );
