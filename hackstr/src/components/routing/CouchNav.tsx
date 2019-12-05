@@ -5,7 +5,8 @@ import {
   DropdownMenu,
   DropdownItem,
   Navbar,
-  NavItem
+  NavItem,
+  Button
 } from "reactstrap";
 import UserOptions from "./UserOptions";
 import { Link } from "react-router-dom";
@@ -18,18 +19,14 @@ export const CouchNav: React.FC<any> = (props: any) => {
   return (
     <div>
       <Navbar>
-        <NavItem>
           <Link to="">
-            <img style={props.iconStyle} />
+            <img style={props.iconStyle} alt='this is an image' />
           </Link>
-        </NavItem>
-        <NavItem>
-          {props.username ? (
-            <button>Sign in</button>
+          {props.username !=='' ? (
+            <Button>Sign in</Button>
           ) : (
             <UserOptions dropDownOpen={dropdownOpen} toggle={toggle} />
           )}
-        </NavItem>
       </Navbar>
     </div>
   );
