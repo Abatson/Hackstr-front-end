@@ -17,7 +17,7 @@ export const CouchNav: React.FC<any> = (props: any) => {
 
   return (
     <div>
-      <Navbar color={props.color}>
+      <Navbar>
         <NavItem>
           <Link to="">
             <img style={props.iconStyle} />
